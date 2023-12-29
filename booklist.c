@@ -105,7 +105,7 @@ void destroyList(Node *head) {
 }
 
 void printList(Node *head) {
-    puts("Listing List entries:");
+    puts("Listing looks this way:");
     while (head) {
         Book *book = head->data;
         PRINT_BOOK(book);
