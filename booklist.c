@@ -4,7 +4,7 @@
 #include <stdint.h>
 
 #define PRINT_BOOK(book) \
-    printf("Title: %s\nPrice: %lu\nPages: %lu\nLanguage: %s\nWeight: %.2fkg\nYear of Publish: %lu\n", \
+    printf("Title: %s\nPrice: %lu\nPages: %lu\nLanguage: %s\nWeight: %.2fkg\nYear: %lu\n", \
             book->title, book->price, book->pages, book->language, book->weight / 10.0, book->year_of_publishing)
 
 typedef struct Book {
